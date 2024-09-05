@@ -11,52 +11,52 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 800px;
+    width: 95%;
+    max-width: 600px;  /* Reduced width to 600px */
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;  /* Reduced padding */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 8px;  /* Slightly smaller border-radius */
 }
 
 header h1 {
     color: #2c3e50;
     text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.8em;  /* Reduced font size */
+    margin-bottom: 15px;
 }
 
 /* Form Section Styling */
 .form-section {
     background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 15px;  /* Reduced padding */
+    border-radius: 8px;
 }
 
 label {
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 8px;  /* Reduced margin */
     display: block;
     color: #34495e;
 }
 
 input, select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+    width: 100%;  /* Keep full width for better visibility */
+    padding: 8px;  /* Reduced padding */
+    margin-bottom: 15px;  /* Reduced margin */
     border: 1px solid #bdc3c7;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 0.9em;  /* Reduced font size */
 }
 
 button {
-    width: 100%;
-    padding: 12px;
+    width: 100%;  /* Full-width button */
+    padding: 10px;  /* Reduced padding */
     background-color: #3498db;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1.2em;
+    font-size: 1em;  /* Reduced font size */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -67,21 +67,21 @@ button:hover {
 
 /* Result Section Styling */
 .result-section {
-    margin-top: 30px;
+    margin-top: 20px;  /* Reduced margin */
 }
 
 .result-section h2 {
     color: #27ae60;
-    font-size: 1.5em;
+    font-size: 1.4em;  /* Reduced font size */
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #results p {
-    font-size: 1.2em;
+    font-size: 1.1em;  /* Reduced font size */
     color: #2c3e50;
-    padding: 10px 0;
+    padding: 8px;  /* Reduced padding */
     background-color: #ecf0f1;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;  /* Reduced margin */
 }
